@@ -1,0 +1,41 @@
+@import "norm.css" screen;
+
+body{
+	background: url('fon.jpg');
+}
+
+.content{
+	width: 1170px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.top{
+	height: 50px;
+	margin-bottom: 8px;
+}
+
+.main{
+	min-height: 500px;
+	padding: 25px 0;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.main table{
+	width: 500px;
+	border: 1px solid black;
+}
+
+.top, .main, .footer{
+	background-color: white;
+	border-radius: 10px;
+	opacity: 0.5;
+	text-align: center;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+}
