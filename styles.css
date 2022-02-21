@@ -15,6 +15,10 @@ body{
 	margin-bottom: 8px;
 }
 
+.top h1{
+	text-align: center;
+}
+
 .main{
 	min-height: 500px;
 	padding: 25px 0;
@@ -26,6 +30,7 @@ body{
 .main table{
 	width: 500px;
 	border: 1px solid black;
+	text-align: center;
 }
 
 .top, .main, .footer{

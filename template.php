@@ -9,7 +9,9 @@
 </head>
 <body>
 	<div class="content">
-		<div class="top"></div>
+		<div class="top">
+			<h1>Добро пожаловать!</h1>
+		</div>
 		<div class="main">
 			<?php
 				$result = mysqli_query($connect,"SELECT * FROM `article`");
