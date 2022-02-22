@@ -40,10 +40,8 @@
 		</table>
 		</div>
 		<div class="footer">
-			
+			<span>Сайт, 2022 (С).</span>
 		</div>
 	</div>
 </body>
 </html>
-
-<h1>"Мама, я коммичу"</h1>
