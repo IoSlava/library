@@ -26,11 +26,11 @@
 			</tr>
 			<?php
 	while($data = mysqli_fetch_array($result,MYSQLI_ASSOC)){ 
-			?>
+			$text = "Текст" . 	$data['id'];		?>
 			<tr>
 				<td><?=$data['id']?></td>
 				<td><?=$data['name']?></td>
-				<td><?=$data['text']?></td>
+				<td><?=$text?></td>
 				<td><?=$data['date']?></td>
 				<td><?=$data['categoria']?></td>
 			</tr>
