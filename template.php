@@ -17,6 +17,13 @@
 				$result = mysqli_query($connect,"SELECT * FROM `article`");
 			?>
 		<table>
+			<tr>
+				<th>id</th>
+				<th>name</th>
+				<th>text</th>
+				<th>date</th>
+				<th>categoria</th>
+			</tr>
 			<?php
 	while($data = mysqli_fetch_array($result,MYSQLI_ASSOC)){ 
 			?>
@@ -38,3 +45,5 @@
 	</div>
 </body>
 </html>
+
+<h1>"Мама, я коммичу"</h1>
