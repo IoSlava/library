@@ -40,7 +40,7 @@
 		</table>
 		</div>
 		<div class="footer">
-			
+			<p>text</p>
 		</div>
 	</div>
 </body>
